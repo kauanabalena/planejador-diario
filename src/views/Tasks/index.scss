@@ -1,0 +1,168 @@
+@use "../../sass/variables" as *;
+
+.new-task-input {
+    display: flex;
+    width: 279px;
+    height: 35px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: $p-white;
+    font-size: 25px;
+    font-family: $p-Poppins;
+    font-style: italic;
+    border: none;
+    margin-left: 391px;
+    margin-bottom: 281px;
+    list-style: none;
+    margin-top: 50px;
+};
+
+
+.new-task-input::placeholder {
+    color: $p-white;
+    list-style: none;
+};
+
+
+.task-name {
+    display: flex;
+    width: 192px;
+    height: 35px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: $p-white;
+    font-size: 25px;
+    font-family: $p-Poppins;
+    margin-left: 391px;
+    margin-top: 33px;
+    list-style: none;
+    word-break: break-word;
+  };
+
+  .task-buttons {
+    list-style: none;
+  };
+  
+  .edit-input {
+    display: flex;
+    width: 192px;
+    height: 35px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: $p-white;
+    font-size: 25px;
+    font-family: $p-Poppins;
+    margin-left: 391px;
+    list-style: none;
+  };
+
+
+.checkbox-icon {
+
+    margin-left: 713px;
+    list-style: none;
+};
+
+.edit-icon {
+    position: absolute;
+    margin-left: 970px;
+    margin-top: -40px;
+};
+
+.delete-icon {
+  position: absolute;
+    margin-left: 1002px;
+    margin-top: -40px;
+};
+
+.edit-task-input{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: $p-white;
+  justify-content: center;
+  align-items: center;
+  margin-left:150px;
+  margin-top: 20px;
+  border: 1px solid $p-black-letters-modal;
+  font-family: $p-Poppins;
+  font-size: 25px;
+};
+
+.add-task-container {
+  display: flex;
+  align-items: center;
+};
+
+.add-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-left: 340px;
+  margin-top: -250px !important;
+};
+
+.add-task-input {
+  display: flex;
+  width: 300px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 160px !important;
+  background-color: $p-white;
+  border: $p-buttonHoverGray;
+  font-family: $p-Poppins;
+  font-size: 25px;
+  border-radius: 10px;
+  border: $p-black-letters 1px solid;
+};
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .new-task-input {
+    margin-left: 20px;
+    font-size: 18px;
+  };
+
+  .task-name {
+    margin-left: 20px;
+    font-size: 15px;
+  };
+
+  .checkbox-icon {
+    position: absolute;
+    margin-left: 170px;
+    margin-top: -40px;
+  };
+
+
+.edit-icon {
+    width: 25px;
+    margin-left: 250px;
+    margin-top: -40px;
+};
+
+.delete-icon {
+    width: 25px;
+    margin-left: 280px;
+    margin-top: -40px;
+};
+
+.add-icon {
+  width: 12px;
+  height: 10px;
+  margin-left: -15px;
+};
+
+.edit-task-input {
+  width: 150px;
+  margin-left: 70px;
+  height: 40px;
+};
+
+.add-task-input {
+  width: 200px;
+  margin-left: 40px !important;
+ }
+};

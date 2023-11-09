@@ -1,0 +1,59 @@
+@use "../../sass/variables" as *;
+
+.List {
+    display: flex;
+    list-style-type: none;
+    padding-top: 126px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: $p-Poppins;
+    color: $p-white;
+    
+
+    .pTarefa {
+        margin-left: 391px;
+    };
+
+    .pStatus {
+        margin-left: 201px;
+    };
+
+    .pOpções {
+        width: 90px !important;
+        margin-left: 167px;
+    };
+
+    .line {
+        width: 685px;
+        height: 6px;
+        margin-top: 10px;
+        background: $p-rectangle;
+        margin-left: -400px;
+    };
+};
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+
+    .pTarefa {
+        margin-left: 20px !important;
+        font-size: 18px;
+    };
+
+    .pStatus {
+        width: 60px !important;
+        margin-left: -150px !important;
+        font-size: 18px;
+    };
+
+    .pOpções {
+        margin-left: -40px !important;
+        font-size: 18px;
+    };
+
+    .line {
+        width: 450px !important;
+        
+    };
+};
